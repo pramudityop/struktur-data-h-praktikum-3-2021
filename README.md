@@ -37,13 +37,16 @@ Program diminta menghitung selisih parent node dengan siblingnya
 Program menggunakan Tree untuk nanti nya dicek menggunakan fungsi, pertama fungsi mengecek apabila memiliki parent atau tidak, jika tidak keluar 0. Lalu dicek lagi jika parent node juga punya parent, jika tidak maka keluarkan nilai node itu. Terakhir program mengecek jika parent node memiliki sibling, maka program akan menghitung perbedaan mutlak
 ## Bucyn
 ### Verdict
+WA
 ### Bukti
 ### Penjelasan Soal
 Program diminta untuk memasukkan nomor episode dan mengeluarkan posisi suatu episode dalam tumpukan (kecil ke besar).
-### Penjelasan Solusi
+### Penjelasan Ide
+Membuat program dengan basis AVL Tree lalu diberikan fungsi yang merespon jika diberi input ``taro`` maka masukkan angka ke dalam tree, lalu jika diberi input ``cari`` maka keluarkan posisi dalam tumpukan dalam format ``Kasetnya ada di tumpukan ke - n``, jika tidak ditemukan maka program akan output ``Kasetnya gak ada!`` jika command tidak keduanya, maka output akan berupa ``AKU TUH GATAU HARUS NGAPAIN!``.
 ## Malur Nguli
 ### Verdict
+WA
 ### Bukti
 ### Penjelasan Soal
 Diberikan sebuah AVL Tree, program diminta menghitung dan mengoutput jumlah setiap kolom dalam tree
-### Penjelasan Solusi
+### Penjelasan Ide
